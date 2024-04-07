@@ -22,7 +22,7 @@ cur.execute("create table if not exists roomd(rn number primary key,beds number,
 #cur.execute("update roomd set tv='Yes' where rn = ? ",(19,))
 cur.execute("create table if not exists payments(id number primary key,dot varchar(15),time varchar(10),amt number,method varchar(10))")
 cur.execute("create table if not exists paymentsf(id number  primary key,f_name varchar,l_name varchar,c_number varchar,email varchar , r_n number ,day varchar,month varchar,year varchar,time varchar , method varchar,totalamt varchar)")
-#cur.execute("insert into paymentsf values(1,'Shubhank','Khare','9589861196','Shubhank7673@gmail.com',2,'1','11','2018','11:20:27 PM','Cash','3500')")
+#cur.execute("insert into paymentsf values(1,'Sohail','Nasir','9589861196','sohail7673@gmail.com',2,'1','11','2018','11:20:27 PM','Cash','3500')")
 #cur.execute("alter table paymentsf add totalamt varchar")
 con.commit()
 #cur.execute("drop table paymentsf")
@@ -631,7 +631,7 @@ def mainroot():
 	'''
 
 		nl = Label(b_frame,text='Made by Sohail And Suresh',fg='black',bg='gray91',font='msserif 8')
-		nl.place(x=955,y=310)
+		nl.place(x=930,y=290)
 		nl.tkraise()
 
 	#---------------reserve------------------------------------------------------------------------------------------------------------------------
