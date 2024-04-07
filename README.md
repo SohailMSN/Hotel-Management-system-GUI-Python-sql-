@@ -1,29 +1,33 @@
-# hotel-management-system
-**Hotel management system is an Tkinter based(Python module) application that can be used by any hotel to :-**
- 
--Reserve a room
+Hotel Management System GUI using Python with SQL Integration
 
--To get the status of room (i.e. available or reserved)
+This project is a comprehensive Hotel Management System built using Python with a graphical user interface (GUI) and SQL database integration. It provides a user-friendly interface for managing various aspects of a hotel, including room reservations, guest information, and payment processing.
 
--To check the amenities available in the room
+Key Features:
 
--To check the total number of guests in the hotel now
+GUI Interface: The system features an intuitive graphical user interface built with Python's tkinter library, allowing users to interact with the system effortlessly.
 
--To find the total number of available and reserved rooms
+Room Reservation: Users can easily check room availability, reserve rooms, and manage reservations directly through the GUI.
 
--To manage staff
+Guest Management: The system enables the management of guest information, including check-in/check-out dates, personal details, and special requests.
 
--To find contacts of different authorities of hotel
+Payment Processing: It facilitates payment processing, including generating bills, recording payments, and managing invoices.
 
--To find the payment information by providing the payment id
+SQL Integration: The project integrates seamlessly with a SQL database to store and retrieve data efficiently. This ensures data consistency and persistence across multiple sessions.
 
-A filter is also provided which gives you the option to fill fields(amenities) according to the guest's choice and find the available rooms with the choosen amenities sorted in order from lowest price to highest price
+How to Use:
 
-## Requirements
-```
-python-3
+Clone the repository to your local machine.
+Install the required dependencies (Python, tkinter, and SQL database).
+Run the main Python script to launch the GUI application.
+Start managing rooms, guests, and payments through the intuitive interface.
+Future Enhancements:
 
-```
+Implement advanced search and filtering options.
+Enhance security features for user authentication and data encryption.
+Integrate reporting and analytics capabilities for business insights.
+Improve code modularity and documentation for better maintainability.
+Contributing:
 
+Contributions to this project are welcome! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request.
 
 
