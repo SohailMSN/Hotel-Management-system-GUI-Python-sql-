@@ -1,4 +1,5 @@
-#code written by sohail and Suresh
+#code written by sohail And Suresh
+#FAST NUCES ISLAMABAD
 
 from tkinter import *
 from tkinter import ttk
